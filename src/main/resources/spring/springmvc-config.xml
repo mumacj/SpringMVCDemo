@@ -27,7 +27,6 @@
         <property name="suffix" value=".jsp"/>
     </bean>
     <!-- 配置静态资源(如JS、CSS、图片等)的访问路径，配置后可以直接访问 -->
-    <mvc:resources mapping="/gif/**" location="/gif"/>
     <mvc:resources mapping="/js/**" location="/js/"/>
 
 </beans>
